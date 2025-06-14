@@ -1,0 +1,21 @@
+package dsa.function.in.sit;
+
+import java.util.Scanner;
+
+public class CountPositiveNegativeZero {
+	
+	public static void countPositiveNegativeZero(int positive,int negitive,int zero) {
+		
+		if(positive >0) {
+			positive++;
+		}else(negitive < 0){
+			negitive++;
+		}
+	}
+	
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+	}
+
+}

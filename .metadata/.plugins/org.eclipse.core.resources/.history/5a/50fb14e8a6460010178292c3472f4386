@@ -1,0 +1,14 @@
+package dsa.array.in.sit;
+
+public class ArraysSorting {
+
+	public static void main(String[] args) {
+		
+		int arr[]= {7,2,5,9,1,5};
+		
+		for(int i =arr.length; i>0;i++) {
+			
+			System.out.println(arr[i]);
+		}
+	}
+}

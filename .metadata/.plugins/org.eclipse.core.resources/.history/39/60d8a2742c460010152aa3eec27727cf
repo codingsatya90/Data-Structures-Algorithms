@@ -1,0 +1,31 @@
+package dsa.function.in.sit;
+
+import java.util.Scanner;
+
+public class CountPositiveNegativeZero {
+	
+	public static void countPositiveNegativeZero(int positive,int negitive,int zero) {
+		
+		
+		int number=0;
+		if(number >0) {
+			positive++;
+		}else if(number < 0){
+			negitive++;
+		}else {
+			zero++;
+		}
+	}
+	
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enetr number:");
+		int number1=sc.nextInt();
+		int number2=sc.nextInt();
+		int number3=sc.nextInt();
+		
+		countPositiveNegativeZero(number1, number2, number3);
+	}
+
+}

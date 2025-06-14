@@ -1,0 +1,21 @@
+package dsa.function.in.sit;
+
+public class EligibleForVote {
+	
+	public static Boolean vote(int age) {
+		
+		if(age =>18) {
+			System.out.println("Eligible for Vote");
+		}else {
+			System.out.println("Not  Eligible for Vote");
+		}
+		return true;
+	}
+	public static void main(String[] args) {
+		
+		int age=18;
+		System.out.println(vote(age));
+	}
+	
+
+}

@@ -1,0 +1,31 @@
+package dsa.function.in.sit;
+
+import java.util.Scanner;
+
+public class CountPositiveNegativeZero {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		int positive1 = 0, negative1 = 0, zero1 = 0;
+		char choice;
+
+		do {
+			System.out.print("Enter a number: ");
+			int number = input.nextInt();
+
+			if (number > 0) {
+				positive1++;
+			} else if (number < 0) {
+				negative1++;
+			} else {
+				zero1++;
+			}
+
+			System.out.print("Do you want to continue (y/n)? ");
+			choice = input.next().charAt(0);
+		} while (choice == 'y' || choice == 'Y');
+
+	}
+
+}

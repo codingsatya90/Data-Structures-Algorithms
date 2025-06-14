@@ -1,0 +1,20 @@
+package dsa.star.in.sit;
+
+public class Butterfly_Pattern {
+
+	public static void main(String[] args) {
+		
+		//outer loop(first hafe
+		for(int i=1; i<=4; i++) {
+			
+			//inner loop
+			for(int j=1; j<=i; j++) {
+				System.out.print("*");
+			}
+			
+			System.out.println();
+			//space print
+			for(int k=1; k ) {
+		}
+	}
+}
